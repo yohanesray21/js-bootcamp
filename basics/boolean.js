@@ -6,9 +6,17 @@ let isNotFreezing = temperature !== 31 //using not equal operator
 console.log(isFreezing);
 console.log(isNotFreezing);
 
-let age = 19
-let isChild = age <= 7 //using less than operator
-let isSenior = age >= 65 //using greater than operator
+let age = 6
 
-console.log(isChild);
-console.log(isSenior);
+
+if(isFreezing) {
+    console.log("It is freezing outside!");
+} 
+
+if(age <= 7) {
+    console.log("Child Pricing");
+}
+
+if(age>=65) {
+    console.log("Senior Discount");
+}
